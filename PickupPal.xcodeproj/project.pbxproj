@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		3D931D922ECDCD1000CD1296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D931D7C2ECDCD0F00CD1296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D931D832ECDCD0F00CD1296;
+			remoteInfo = PickupPal;
+		};
+		3D931D9C2ECDCD1000CD1296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D931D7C2ECDCD0F00CD1296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D931D832ECDCD0F00CD1296;
+			remoteInfo = PickupPal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D931D842ECDCD0F00CD1296 /* PickupPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickupPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D931D912ECDCD1000CD1296 /* PickupPalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickupPalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D931D9B2ECDCD1000CD1296 /* PickupPalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickupPalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3D931D862ECDCD0F00CD1296 /* PickupPal */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PickupPal;
+			sourceTree = "<group>";
+		};
+		3D931D942ECDCD1000CD1296 /* PickupPalTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PickupPalTests;
+			sourceTree = "<group>";
+		};
+		3D931D9E2ECDCD1000CD1296 /* PickupPalUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PickupPalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D931D812ECDCD0F00CD1296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D931D8E2ECDCD1000CD1296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D931D982ECDCD1000CD1296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D931D7B2ECDCD0F00CD1296 = {
+			isa = PBXGroup;
+			children = (
+				3D931D862ECDCD0F00CD1296 /* PickupPal */,
+				3D931D942ECDCD1000CD1296 /* PickupPalTests */,
+				3D931D9E2ECDCD1000CD1296 /* PickupPalUITests */,
+				3D931D852ECDCD0F00CD1296 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D931D852ECDCD0F00CD1296 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D931D842ECDCD0F00CD1296 /* PickupPal.app */,
+				3D931D912ECDCD1000CD1296 /* PickupPalTests.xctest */,
+				3D931D9B2ECDCD1000CD1296 /* PickupPalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D931D832ECDCD0F00CD1296 /* PickupPal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D931DA52ECDCD1000CD1296 /* Build configuration list for PBXNativeTarget "PickupPal" */;
+			buildPhases = (
+				3D931D802ECDCD0F00CD1296 /* Sources */,
+				3D931D812ECDCD0F00CD1296 /* Frameworks */,
+				3D931D822ECDCD0F00CD1296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3D931D862ECDCD0F00CD1296 /* PickupPal */,
+			);
+			name = PickupPal;
+			packageProductDependencies = (
+			);
+			productName = PickupPal;
+			productReference = 3D931D842ECDCD0F00CD1296 /* PickupPal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D931D902ECDCD1000CD1296 /* PickupPalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D931DA82ECDCD1000CD1296 /* Build configuration list for PBXNativeTarget "PickupPalTests" */;
+			buildPhases = (
+				3D931D8D2ECDCD1000CD1296 /* Sources */,
+				3D931D8E2ECDCD1000CD1296 /* Frameworks */,
+				3D931D8F2ECDCD1000CD1296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D931D932ECDCD1000CD1296 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3D931D942ECDCD1000CD1296 /* PickupPalTests */,
+			);
+			name = PickupPalTests;
+			packageProductDependencies = (
+			);
+			productName = PickupPalTests;
+			productReference = 3D931D912ECDCD1000CD1296 /* PickupPalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D931D9A2ECDCD1000CD1296 /* PickupPalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D931DAB2ECDCD1000CD1296 /* Build configuration list for PBXNativeTarget "PickupPalUITests" */;
+			buildPhases = (
+				3D931D972ECDCD1000CD1296 /* Sources */,
+				3D931D982ECDCD1000CD1296 /* Frameworks */,
+				3D931D992ECDCD1000CD1296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D931D9D2ECDCD1000CD1296 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3D931D9E2ECDCD1000CD1296 /* PickupPalUITests */,
+			);
+			name = PickupPalUITests;
+			packageProductDependencies = (
+			);
+			productName = PickupPalUITests;
+			productReference = 3D931D9B2ECDCD1000CD1296 /* PickupPalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D931D7C2ECDCD0F00CD1296 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					3D931D832ECDCD0F00CD1296 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					3D931D902ECDCD1000CD1296 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 3D931D832ECDCD0F00CD1296;
+					};
+					3D931D9A2ECDCD1000CD1296 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 3D931D832ECDCD0F00CD1296;
+					};
+				};
+			};
+			buildConfigurationList = 3D931D7F2ECDCD0F00CD1296 /* Build configuration list for PBXProject "PickupPal" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D931D7B2ECDCD0F00CD1296;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3D931D852ECDCD0F00CD1296 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D931D832ECDCD0F00CD1296 /* PickupPal */,
+				3D931D902ECDCD1000CD1296 /* PickupPalTests */,
+				3D931D9A2ECDCD1000CD1296 /* PickupPalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D931D822ECDCD0F00CD1296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D931D8F2ECDCD1000CD1296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D931D992ECDCD1000CD1296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D931D802ECDCD0F00CD1296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D931D8D2ECDCD1000CD1296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D931D972ECDCD1000CD1296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D931D932ECDCD1000CD1296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D931D832ECDCD0F00CD1296 /* PickupPal */;
+			targetProxy = 3D931D922ECDCD1000CD1296 /* PBXContainerItemProxy */;
+		};
+		3D931D9D2ECDCD1000CD1296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D931D832ECDCD0F00CD1296 /* PickupPal */;
+			targetProxy = 3D931D9C2ECDCD1000CD1296 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D931DA32ECDCD1000CD1296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D931DA42ECDCD1000CD1296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D931DA62ECDCD1000CD1296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AI-2--.PickupPal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D931DA72ECDCD1000CD1296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AI-2--.PickupPal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D931DA92ECDCD1000CD1296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AI-2--.PickupPalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickupPal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PickupPal";
+			};
+			name = Debug;
+		};
+		3D931DAA2ECDCD1000CD1296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AI-2--.PickupPalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickupPal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PickupPal";
+			};
+			name = Release;
+		};
+		3D931DAC2ECDCD1000CD1296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AI-2--.PickupPalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PickupPal;
+			};
+			name = Debug;
+		};
+		3D931DAD2ECDCD1000CD1296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AI-2--.PickupPalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PickupPal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D931D7F2ECDCD0F00CD1296 /* Build configuration list for PBXProject "PickupPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D931DA32ECDCD1000CD1296 /* Debug */,
+				3D931DA42ECDCD1000CD1296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D931DA52ECDCD1000CD1296 /* Build configuration list for PBXNativeTarget "PickupPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D931DA62ECDCD1000CD1296 /* Debug */,
+				3D931DA72ECDCD1000CD1296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D931DA82ECDCD1000CD1296 /* Build configuration list for PBXNativeTarget "PickupPalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D931DA92ECDCD1000CD1296 /* Debug */,
+				3D931DAA2ECDCD1000CD1296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D931DAB2ECDCD1000CD1296 /* Build configuration list for PBXNativeTarget "PickupPalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D931DAC2ECDCD1000CD1296 /* Debug */,
+				3D931DAD2ECDCD1000CD1296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D931D7C2ECDCD0F00CD1296 /* Project object */;
+}
