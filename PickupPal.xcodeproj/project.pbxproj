@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3D72D6192ED9BE96001EA7FC /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 3D72D6182ED9BE90001EA7FC /* readme.md */; };
+		3D7B59102ED9550F00829EC5 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3D7B590F2ED9550F00829EC5 /* ConfettiSwiftUI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		3D931D922ECDCD1000CD1296 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D72D6182ED9BE90001EA7FC /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		3D931D842ECDCD0F00CD1296 /* PickupPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickupPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D931D912ECDCD1000CD1296 /* PickupPalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickupPalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D931D9B2ECDCD1000CD1296 /* PickupPalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickupPalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D7B59102ED9550F00829EC5 /* ConfettiSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +82,7 @@
 		3D931D7B2ECDCD0F00CD1296 = {
 			isa = PBXGroup;
 			children = (
+				3D72D6182ED9BE90001EA7FC /* readme.md */,
 				3D931D862ECDCD0F00CD1296 /* PickupPal */,
 				3D931D942ECDCD1000CD1296 /* PickupPalTests */,
 				3D931D9E2ECDCD1000CD1296 /* PickupPalUITests */,
@@ -112,6 +120,7 @@
 			);
 			name = PickupPal;
 			packageProductDependencies = (
+				3D7B590F2ED9550F00829EC5 /* ConfettiSwiftUI */,
 			);
 			productName = PickupPal;
 			productReference = 3D931D842ECDCD0F00CD1296 /* PickupPal.app */;
@@ -195,6 +204,9 @@
 			);
 			mainGroup = 3D931D7B2ECDCD0F00CD1296;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3D7B590E2ED954DF00829EC5 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 3D931D852ECDCD0F00CD1296 /* Products */;
 			projectDirPath = "";
@@ -212,6 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D72D6192ED9BE96001EA7FC /* readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +408,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5WQ3B9777V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -422,6 +436,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5WQ3B9777V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -550,6 +565,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3D7B590E2ED954DF00829EC5 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3D7B590F2ED9550F00829EC5 /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D7B590E2ED954DF00829EC5 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			productName = ConfettiSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3D931D7C2ECDCD0F00CD1296 /* Project object */;
 }
