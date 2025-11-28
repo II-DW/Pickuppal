@@ -52,21 +52,21 @@
 ## 📂 프로젝트 구조 (Project Structure)
 
 PickupPal
-├── Models/                 # 데이터 모델 (User, Restaurant, Activity 등)
-│   └── DataTypes.swift
-├── ViewModels/             # 비즈니스 로직 및 상태 관리
-│   └── AppViewModel.swift
-├── Views/                  # UI 컴포넌트
-│   ├── ContentView.swift       # 메인 진입점 및 탭 관리
-│   ├── Home/                   # 홈 탭 관련 뷰 (통계 카드, 랭킹 등)
-│   ├── Delivery/               # 배달/픽업 주문 관련 뷰 (메뉴, 지도 등)
-│   ├── Components/             # 재사용 가능한 UI (버튼, 로딩, 헤더 등)
-│   ├── Modals/                 # 팝업 뷰 (로그 입력, 아바타 관리 등)
-│   └── Shop/                   # 포인트 상점 (룰렛)
-├── Services/               # API 통신 및 데이터 처리 (Mock Data)
-│   └── APIManager.swift
-└── Utilities/              # 확장 기능 및 헬퍼
-    └── Extensions.swift
+├── Models/                 # 데이터 모델 (User, Restaurant, Activity 등) <br />
+│   └── DataTypes.swift<br />
+├── ViewModels/             # 비즈니스 로직 및 상태 관리<br />
+│   └── AppViewModel.swift<br />
+├── Views/                  # UI 컴포넌트<br />
+│   ├── ContentView.swift       # 메인 진입점 및 탭 관리<br />
+│   ├── Home/                   # 홈 탭 관련 뷰 (통계 카드, 랭킹 등)<br />
+│   ├── Delivery/               # 배달/픽업 주문 관련 뷰 (메뉴, 지도 등)<br />
+│   ├── Components/             # 재사용 가능한 UI (버튼, 로딩, 헤더 등)<br />
+│   ├── Modals/                 # 팝업 뷰 (로그 입력, 아바타 관리 등)<br />
+│   └── Shop/                   # 포인트 상점 (룰렛)<br />
+├── Services/               # API 통신 및 데이터 처리 (Mock Data)<br />
+│   └── APIManager.swift<br />
+└── Utilities/              # 확장 기능 및 헬퍼<br />
+    └── Extensions.swift<br />
 
 ## 🚀 설치 및 실행 (How to Run)
 
